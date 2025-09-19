@@ -222,7 +222,7 @@ export default function PromptPage() {
                 onChange={(e) => setPrompt(e.target.value)}
                 placeholder={uploadedFile 
                   ? "Add additional context or leave empty to process Excel file..." 
-                  : "Example: 'Forecast 12 months with 5 initial salespeople, add 2 monthly, spend $150k on marketing, CAC $800, 6% conversion rate, large customers $8k/month, SME customers $2k/month'"
+                  : "forecast of 8 months , initially i hire 1 sales person than i hire one every month and my CAC is $4000 and my revenue from SME is $2000 and large customer is 10000, we have conversion rate is 100% and each salesperson does 1 deal for us and our ad spent is 5000"
                 }
                 className="min-h-[140px] resize-none text-base leading-relaxed bg-input border-border focus:ring-2 focus:ring-black focus:border-transparent transition-all duration-200"
                 disabled={isLoading}
