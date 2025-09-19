@@ -260,9 +260,7 @@ export default function PromptPage() {
           <div className="p-4 bg-gray-50 rounded-lg border border-gray-300">
             <h3 className="text-sm font-semibold text-black mb-2">💡 Quick Examples</h3>
             <div className="text-xs text-gray-600 space-y-1">
-              <p>• "12 months, 3 salespeople, $100k marketing, 5% conversion"</p>
-              <p>• "Scale from 2 to 20 salespeople over 18 months"</p>
-              <p>• "SaaS startup: $50k CAC, $5k LTV, 2% monthly churn"</p>
+              <p>• "forecast of 8 months , initially i hire 1 sales person than i hire one every month and my CAC is $4000 and my revenue from SME is $2000 and large customer is 10000, we have conversion rate is 100% and each salesperson does 1 deal for us and our ad spent is 5000"</p>
             </div>
           </div>
           <p className="text-sm text-muted-foreground">
