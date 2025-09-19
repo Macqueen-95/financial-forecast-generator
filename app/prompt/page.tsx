@@ -27,7 +27,7 @@ export default function PromptPage() {
   useEffect(() => {
     ;(async () => {
       try {
-        const res = await axios.get("http://localhost:8000/health", { timeout: 3000 })
+        const res = await axios.get("http://13.228.225.19:8000/health", { timeout: 3000 })
         setBackendOk(res.data?.status === "ok")
       } catch {
         setBackendOk(false)
@@ -66,14 +66,14 @@ export default function PromptPage() {
         // Handle Excel file upload
         const formData = new FormData()
         formData.append('file', uploadedFile)
-        res = await axios.post("http://localhost:8000/forecast-excel", formData, {
+        res = await axios.post("http://13.228.225.19:8000/forecast-excel", formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
         })
       } else {
         // Handle text prompt
-        res = await axios.post("http://localhost:8000/forecast", { query: prompt })
+        res = await axios.post("http://13.228.225.19:8000/forecast", { query: prompt })
       }
       
       // Check if response has error

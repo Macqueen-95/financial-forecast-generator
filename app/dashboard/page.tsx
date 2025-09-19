@@ -241,7 +241,7 @@ export default function Dashboard() {
     setChatLoading(true)
     setChatError(null)
     try {
-        const res = await axios.post("http://localhost:8000/forecast", {
+        const res = await axios.post("http://13.228.225.19:8000/forecast", {
         query: text,
         // Provide current assumptions as context so the model can reuse unchanged values
         context: { previous_assumptions: (data as any).assumptions },
