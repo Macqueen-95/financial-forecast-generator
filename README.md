@@ -30,12 +30,6 @@ Just upload your data, describe your business, and instantly get **forecast char
 
 ---
 
-## 📸 Screenshots
-
-<p align="center"> <img src="./assets/screenshot-home.png" alt="App Home" width="800" /> </p> <p align="center"> <img src="./assets/screenshot-dashboard.png" alt="Dashboard" width="800" /> </p>
-
----
-
 ## 🌍 Deployment
 
 Our live demo is here:
